@@ -1,0 +1,46 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    display: grid;
+    grid-template-columns: auto;
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#main {
+    display: grid;
+}
+
+@media (min-width: 640px) {
+    input {
+        width: 100%;
+    }
+}
